@@ -34,7 +34,7 @@ const Form = (props) => {
             return setIsOpen(true);
         }
 
-        if (userAge < 0) {
+        if (userAge <= 0) {
             return setNegModal(true);
         }
 
